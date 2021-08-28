@@ -32,7 +32,7 @@ const AllRoutes = () => {
         <Cart />
       </Route>
       <Route path="/" exact>
-        <Redirect to="/home" />
+        <MainContent />
       </Route>
       <Route path="*">Item Not Found</Route>
     </Switch>
